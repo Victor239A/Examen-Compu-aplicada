@@ -1,5 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class ExamenCompuA {
@@ -102,7 +100,7 @@ switch (opcion) {
         case 4:
         System.out.println("Saliendo del programa...");
 
-    default:
+    default:System.out.println("Opcion no valida");
         break;
         }
 
